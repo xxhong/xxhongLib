@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+<!--     <ListView -->
+<!--         android:id="@+id/lv_popfilter" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:focusable="true" > -->
+<!--     </ListView> -->
+    <GridView
+        android:id="@+id/gv_popfilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        
+        android:focusable="true" >
+    </GridView>
+</RelativeLayout>
